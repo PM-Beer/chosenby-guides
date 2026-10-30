@@ -1,1 +1,67 @@
-{"brand":"jobsearchplaybook","updatedAt":"2026-10-30T00:00:00Z","guides":[]}
+{
+ "brand": "jobsearchplaybook",
+ "updatedAt": "2026-10-30T22:09:14Z",
+ "guides": [
+  {
+   "slug": "find-your-next-career-path",
+   "word": "QUIZ",
+   "topic": "Choose a path",
+   "tool": "ChatGPT or Claude",
+   "title": "Find your next career path with Claude + Scout",
+   "short": "",
+   "blurb": "Play: Pick a direction before you send another application. When you finish, you'll have 2 to 3 adjacent roles to look at, the evidence for each from your own experience, and the gap you'd need to close for each.",
+   "inside": [
+    "Gather your raw material (5 minutes)",
+    "Start a new chat and set the scene",
+    "Check the list",
+    "Ask for adjacent roles",
+    "Pressure-test each role",
+    "Pick one to test",
+    "Have Scout do it for you"
+   ],
+   "intro": "Most people who feel lost apply to everything. Nothing feels like a clear fit, so every posting looks possible. The trouble is that a scattered search can read as unfocused to the person reading your application. A short list of roles, each backed by evidence, gives you something to aim at.",
+   "free": [
+    {
+     "title": "Step 1: Gather your raw material (5 minutes)",
+     "body": "You can run this play with any AI chat, ChatGPT or Claude. No Scout needed.\n\nOpen a document. Paste in your resume, or write down your last 2 to 3 roles. Add the tasks you did most, the tools you used, and the work people came to you for.",
+     "prompt": ""
+    },
+    {
+     "title": "Step 2: Start a new chat and set the scene",
+     "body": "Paste this, then add your material below it:",
+     "prompt": "I'm trying to figure out which roles I should be going for. I'll paste my work history below. Don't suggest anything yet. First, read it and list the 5 skills or strengths that show up most often, with one example from my history for each. Then wait for my reply.\n\n[Paste your resume or work history here]"
+    },
+    {
+     "title": "Step 3: Check the list",
+     "body": "Read what comes back. Fix anything wrong. Add anything missing. This list is your evidence base, so make it accurate.",
+     "prompt": ""
+    },
+    {
+     "title": "Step 4: Ask for adjacent roles",
+     "body": "Paste this:",
+     "prompt": "Based on the strengths we just listed, which roles fit my experience that I haven't considered? Give me 2 to 3 roles that sit close to what I've already done. For each one, tell me:\n1. Why it fits, using specific examples from my history.\n2. The gap: what I'd still need to show or learn to be a credible candidate.\nDo not include salary figures. If a role is a stretch, say so."
+    }
+   ],
+   "locked": [
+    {
+     "title": "Step 5: Pressure-test each role",
+     "body": "For each role, paste this:",
+     "prompt": "For the role [ROLE NAME], what would a recruiter look for on a resume that I don't have yet? What is one small thing I could do in the next 30 days to start closing that gap?"
+    },
+    {
+     "title": "Step 6: Pick one to test",
+     "body": "Choose the role that feels most workable, not the one that sounds best. Search for 5 job postings for it. Check how many of the requirements you already meet. If it feels right, aim your resume and applications at that one role for the next few weeks.",
+     "prompt": ""
+    },
+    {
+     "title": "Step 7: Have Scout do it for you",
+     "body": "Scout works from your CareerID, so it already has your experience in hand. You skip the gathering and the back-and-forth.\n\n1. Add Scout to Claude on your computer with this link: https://scoutjob.ai/start?app=claude&ref=jobsearchplaybook-hub&utm_source=jobsearchplaybook&utm_medium=creator-hub&utm_campaign=find-your-next-career-path&utm_content=angelica\n\n2. Open a new chat and paste this prompt:\n\n3. What you'll see: Scout's path check. It gives you 2 to 3 adjacent roles, the evidence for each from your CareerID, and the gap for each.\n\nWhat the trial includes: The trial covers 1 path check. After that, Scout is $47/mo. If you want to try the play first, the do-it-yourself steps above cost nothing.",
+     "prompt": "Scout, which roles fit my experience that I haven't considered?"
+    }
+   ],
+   "tip": "Treat the gap as your next move, not a verdict. When you get your roles back, look at the gap line first. Ask: \"Can I close this in 30 days, or does it need a longer plan?\" Then pick the role with the gap you can start closing this week. Write that one gap at the top of your notes and work on it before you apply anywhere. A search with one clear target is easier to run and easier for a recruiter to follow.",
+   "contentId": "s01",
+   "publishedAt": "2026-10-30T21:45:03.231Z"
+  }
+ ]
+}

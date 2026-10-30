@@ -1,1 +1,61 @@
-{"brand":"futureofwork","updatedAt":"2026-10-30T00:00:00Z","guides":[]}
+{
+ "brand": "futureofwork",
+ "updatedAt": "2026-10-30T22:09:14Z",
+ "guides": [
+  {
+   "slug": "find-your-next-career-path",
+   "word": "QUIZ",
+   "topic": "Choose a path",
+   "tool": "ChatGPT or Claude",
+   "title": "Find your next career path with Claude + Scout",
+   "short": "",
+   "blurb": "By the end, you'll have 2 to 3 adjacent roles worth a closer look, the evidence from your own experience for each, and the gap you'd need to close.",
+   "inside": [
+    "Gather your raw material (3 minutes)",
+    "Ask for a skills inventory (3 minutes)",
+    "Find adjacent roles (3 minutes)",
+    "Test the gaps (3 minutes)",
+    "Pick one direction (3 minutes)",
+    "Have Scout do it for you"
+   ],
+   "intro": "Most people who say \"I don't know what job to go for\" end up applying to everything. Nothing feels like a clear fit, so every posting looks possible. To a recruiter, a scattered search can read as unfocused. Work is changing fast, and job titles shift with it. Your next move may be a role you haven't heard of yet. A short, structured check can point you toward a few roles that make sense and let you stop guessing.",
+   "free": [
+    {
+     "title": "Step 1: Gather your raw material (3 minutes)",
+     "body": "You can do this with any AI chat, ChatGPT or Claude. You don't need Scout.\n\nOpen your current resume or LinkedIn profile. If you don't have one, write a few lines on your last two or three jobs: what you did, what tools you used, and what you were good at.",
+     "prompt": ""
+    },
+    {
+     "title": "Step 2: Ask for a skills inventory (3 minutes)",
+     "body": "Open a new chat. Paste your experience below the prompt.",
+     "prompt": "Here is my work history. Read it and list my top 8 skills. Split them into skills I use in my daily work and skills I have shown only a few times. Quote the part of my history that supports each skill. Do not guess. If something is not in the text, leave it out.\n\n[Paste your resume or work summary here]"
+    },
+    {
+     "title": "Step 3: Find adjacent roles (3 minutes)",
+     "body": "Ask for roles close to what you already do, not a total reinvention.",
+     "prompt": "Using the skills above, suggest 2 to 3 job roles that are adjacent to my current experience and that I may not have considered. For each role, tell me:\n1. Why it fits, using specific evidence from my history.\n2. The main gap between my experience and what that role usually asks for.\nDo not include salary figures. Do not tell me what my \"perfect\" career is. Just give me options and be honest about the gaps."
+    }
+   ],
+   "locked": [
+    {
+     "title": "Step 4: Test the gaps (3 minutes)",
+     "body": "Pick the role that interests you most and check how big the gap is.",
+     "prompt": "For the role of [role you picked], list the 5 skills or experiences that job postings for it most often ask for. Mark each one as: already shown in my history, partly shown, or missing. Then suggest one small, low-cost way to close each missing or partial one."
+    },
+    {
+     "title": "Step 5: Pick one direction (3 minutes)",
+     "body": "Choose one role to explore for the next two weeks. Search job titles for that role only. Read five postings. Note which ones match your evidence. A focused search is easier to read than a scattered one.",
+     "prompt": ""
+    },
+    {
+     "title": "Step 6: Have Scout do it for you",
+     "body": "Scout works from your CareerID, so the evidence comes from your own record instead of a pasted summary.\n\n1. Add Scout to Claude on your computer: https://scoutjob.ai/start?app=claude&ref=futureofwork-hub&utm_source=futureofwork&utm_medium=creator-hub&utm_campaign=find-your-next-career-path&utm_content=stanita\n\n2. Open a new chat and paste this prompt:\n\n3. What you'll see: Scout's path check. It gives you 2 to 3 adjacent roles, the evidence for each from your CareerID, and the gap for each.\n\nA note on limits: the trial includes 1 path check. After that, Scout is $47/mo. Use your trial check when you're ready to look at the results, and have your goals in mind first.",
+     "prompt": "Scout, which roles fit my experience that I haven't considered?"
+    }
+   ],
+   "tip": "Don't chase job titles. Chase skills that show up across several roles. Titles change fast, and the same skill can sit under very different names. After your path check, look at the gaps for each role. If one skill appears in two or more gaps, start there. It gives you more options for your next move than a skill that only matters for one role.",
+   "contentId": "s01",
+   "publishedAt": "2026-10-30T21:45:03.591Z"
+  }
+ ]
+}

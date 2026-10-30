@@ -1,1 +1,37 @@
-{"brand":"hireme","updatedAt":"2026-10-30T00:00:00Z","guides":[]}
+{
+ "brand": "hireme",
+ "updatedAt": "2026-10-30T22:09:14Z",
+ "guides": [
+  {
+   "slug": "find-your-next-career-path",
+   "word": "QUIZ",
+   "topic": "Choose a path",
+   "tool": "ChatGPT or Claude",
+   "title": "Find your next career path with Claude + Scout",
+   "short": "",
+   "blurb": "By the end, you'll have 2 to 3 roles next to your current one, the proof from your own experience for each, and one clear gap to close for each.",
+   "inside": [
+    "Do it yourself in 15 minutes",
+    "Have Scout do it for you"
+   ],
+   "intro": "If you don't know which job to go for, it's easy to apply to everything. That's not a flaw in you. It's what happens when nothing feels like a clear fit. The trouble is that a scattered search can look unfocused to the person reading it. Picking a few roles on purpose gives your search a clear direction.",
+   "free": [
+    {
+     "title": "Step 1: Do it yourself in 15 minutes",
+     "body": "You can do this with any AI chat, like ChatGPT or Claude. No Scout needed.\n\n1. Gather your material (3 minutes). Open your current resume. Also jot down a few things you're proud of at work, even small ones. Keep it all in one place.\n\n2. Paste in your experience (2 minutes). Open a new chat and paste this. Then paste your resume right below it.\n\n3. Ask for adjacent roles (3 minutes). Paste this:\n\n4. Check the evidence (3 minutes). Read each answer. Does the evidence really come from your resume? If something looks off, push back:\n\n5. Look at the gaps (2 minutes). Paste this:\n\n6. Pick one to test (2 minutes). Choose the role that excites you most and where the gap feels doable. Then ask:\n\nSave your answers in a note. Now your search has a direction.",
+     "prompt": "I'm going to share my resume. Please read it closely and wait. Don't suggest anything yet. When you're done, reply only with: \"Ready for your next question.\"\n\nBased on my resume, which roles fit my experience that I haven't considered? Give me 2 to 3 roles that are close to what I already do. For each role, tell me: (1) why it fits, using specific evidence from my resume, and (2) the biggest gap between my experience and that role. Keep it plain and short. Don't guess at pay.\n\nFor each role, quote the exact line or detail from my resume that supports it. If you can't find one, say so and remove the role.\n\nFor each role, what is one small, realistic thing I could do in the next 30 days to start closing the gap? Examples: a short course, a project, a conversation with someone in that role, or a change to how I describe my work.\n\nRewrite my resume summary so it speaks to this role. Use only what's true in my resume. Don't add skills or experience I don't have."
+    }
+   ],
+   "locked": [
+    {
+     "title": "Step 2: Have Scout do it for you",
+     "body": "Scout works inside Claude and uses your CareerID, so it's already working from your experience.\n\n1. Add Scout to Claude on your computer: https://scoutjob.ai/start?app=claude&ref=hireme-hub&utm_source=hireme&utm_medium=creator-hub&utm_campaign=find-your-next-career-path&utm_content=aleah\n\n2. Open a new chat and paste this:\n\n3. What you'll see: Scout's path check. That's 2 to 3 adjacent roles, the evidence for each from your CareerID, and the gap for each.\n\nA quick note on cost: the trial includes 1 path check. After that, Scout is $47/mo.",
+     "prompt": "Scout, which roles fit my experience that I haven't considered?"
+    }
+   ],
+   "tip": "Don't try to pick your forever job. Just pick one role to test this week. Take the role from your list with the smallest gap, then look at 5 real job posts for it. Highlight every line you could already speak to from your own work. If most of the lines feel familiar, you've got a good lead. If few do, cross it off and try the next one. You're qualified. Now give your search a clear target.",
+   "contentId": "s01",
+   "publishedAt": "2026-10-30T21:45:02.913Z"
+  }
+ ]
+}

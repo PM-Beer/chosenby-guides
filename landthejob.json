@@ -1,1 +1,37 @@
-{"brand":"landthejob","updatedAt":"2026-10-30T00:00:00Z","guides":[]}
+{
+ "brand": "landthejob",
+ "updatedAt": "2026-10-30T22:09:14Z",
+ "guides": [
+  {
+   "slug": "find-your-next-career-path",
+   "word": "QUIZ",
+   "topic": "Choose a path",
+   "tool": "ChatGPT or Claude",
+   "title": "Find your next career path with Claude + Scout",
+   "short": "",
+   "blurb": "By the end, you'll have 2 to 3 realistic roles worth exploring, with the evidence for each and the gap you'd need to close.",
+   "inside": [
+    "Do it yourself in 15 minutes",
+    "Have Scout do it for you"
+   ],
+   "intro": "When nothing feels like a clear fit, it's tempting to apply to everything. But scattered searches can read as unfocused to recruiters. A short list of roles you can back up with real experience gives your search a direction. It also makes your resume and your story easier to write.",
+   "free": [
+    {
+     "title": "Step 1: Do it yourself in 15 minutes",
+     "body": "You can do this with any AI chat, like ChatGPT or Claude. No Scout needed.\n\n1. Gather your material (3 minutes).\nPull up your current resume. If you don't have one, jot down your last 2 or 3 jobs, what you did in each, and anything you were proud of.\n\n2. Build your experience summary (4 minutes).\nOpen a new chat and paste this. Then paste your resume or notes below it.\n\n3. Ask for adjacent roles (4 minutes).\nOnce you're happy with the summary, paste this in the same chat.\n\n4. Pressure-test the list (3 minutes).\nCheck each role against your own gut and your own facts. Then paste this.\n\nPick one or two roles to try. Search those titles for a week and see how it feels.",
+     "prompt": "I'm figuring out my next career move. Below is my work history. Please summarize it in four short lists:\n1. Skills I use most often\n2. Tasks I seem to do well, based on the results or responsibilities I described\n3. Tools and methods I know\n4. Types of problems I tend to solve\n\nOnly use what's in my history. Don't guess or add anything. If something is unclear, ask me a question first.\n\nMy work history:\n[paste your resume or notes here]\n\nBased on that summary, which roles fit my experience that I haven't considered? Give me 2 to 3 roles that are adjacent to what I've done. For each role, tell me:\n- Why it fits, pointing to specific items from my history\n- The gap: what's missing or thin compared to what that role usually asks for\n- One small step I could take to test my interest\n\nBe honest about the gaps. Don't tell me any role is perfect for me. Don't include salary information.\n\nFor each of the roles you suggested, show me 3 real job titles I could search for on a job board. Then tell me which of my past accomplishments I should put at the top of my resume if I applied to that role. Only use accomplishments I actually shared with you."
+    }
+   ],
+   "locked": [
+    {
+     "title": "Step 2: Have Scout do it for you",
+     "body": "Scout works from your CareerID, so you don't have to paste in and explain your history each time.\n\n1. Add Scout to Claude on your computer with this link: https://scoutjob.ai/start?app=claude&ref=landthejob-hub&utm_source=landthejob&utm_medium=creator-hub&utm_campaign=find-your-next-career-path&utm_content=kasey\n\n2. Open a new chat and paste this prompt:\n\n3. What you'll see: Scout's path check. That's 2 to 3 adjacent roles, the evidence for each from your CareerID, and the gap for each.\n\nOne honest note on cost: the trial includes 1 path check. After that, Scout is $47/mo.",
+     "prompt": "Scout, which roles fit my experience that I haven't considered?"
+    }
+   ],
+   "tip": "Don't try to pick the one right answer yet. Pick the role where your evidence is strongest and the gap is smallest, and treat it as a test. Search for that title for one week. Notice which postings you actually want to read to the end. That tells you more than any list will. Then take the gap Scout or your AI chat named and do one small thing about it this week, like a short course, a conversation with someone in that role, or a small project. Small steps keep a search moving.",
+   "contentId": "s01",
+   "publishedAt": "2026-10-30T21:45:03.368Z"
+  }
+ ]
+}

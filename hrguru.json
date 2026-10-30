@@ -1,1 +1,55 @@
-{"brand":"hrguru","updatedAt":"2026-10-30T00:00:00Z","guides":[]}
+{
+ "brand": "hrguru",
+ "updatedAt": "2026-10-30T22:09:14Z",
+ "guides": [
+  {
+   "slug": "find-your-next-career-path",
+   "word": "QUIZ",
+   "topic": "Choose a path",
+   "tool": "ChatGPT or Claude",
+   "title": "Find your next career path with Claude + Scout",
+   "short": "",
+   "blurb": "By the end, you'll have 2 to 3 realistic roles to focus your search on, with the evidence for each and the gap you'd need to close.",
+   "inside": [
+    "Dump your real experience (5 minutes)",
+    "Ask for adjacent roles (3 minutes)",
+    "Pressure-test the list (4 minutes)",
+    "Pick one and check it against real postings (3 minutes)",
+    "Have Scout do it for you"
+   ],
+   "intro": "Here's what happens on my side of the desk. A recruiter opens your applications and sees a project coordinator role, then an operations analyst role, then a customer success role. No pattern. It reads as someone who doesn't know what they want. That's a quick screen-out. Most people scatter because nothing feels like a clear fit. The fix is to pick a direction based on what you've actually done.",
+   "free": [
+    {
+     "title": "Step 1: Dump your real experience (5 minutes)",
+     "body": "You can do this with any AI chat, ChatGPT or Claude. No Scout needed.\n\nOpen a new chat. Paste in your resume or write out your last 2 to 3 jobs. Include the tasks you did, the tools you used, and anything people came to you for.",
+     "prompt": "Here is my work history. Read it and don't suggest anything yet. Just summarize the skills, tools, and kinds of work that show up most often, and the things colleagues or managers relied on me for.\n\n[Paste your resume or job descriptions here]"
+    },
+    {
+     "title": "Step 2: Ask for adjacent roles (3 minutes)",
+     "body": "Adjacent means close to what you've already done. Not a total reinvention.",
+     "prompt": "Based on that summary, which roles fit my experience that I haven't considered? Give me 2 to 3 adjacent roles. For each one, tell me: \n1) the specific evidence from my background that supports it, \n2) the main gap between my experience and what the role typically asks for. \nOnly use what is in my history. If you're guessing, say so."
+    },
+    {
+     "title": "Step 3: Pressure-test the list (4 minutes)",
+     "body": "Don't trust the first answer. Make it argue against itself.",
+     "prompt": "For each role you suggested, tell me the strongest reason a recruiter might screen me out, and what I could do in the next 30 days to address it. Keep it realistic."
+    }
+   ],
+   "locked": [
+    {
+     "title": "Step 4: Pick one and check it against real postings (3 minutes)",
+     "body": "Choose the role with the strongest evidence and the smallest gap. Pull up 3 real job postings for it. Paste them in.\n\nNow you have a target. Search for that role first, and tailor your resume to it.",
+     "prompt": "Here are 3 job postings for the role I'm leaning toward. Compare them to my work history. Which requirements do I clearly meet, which are partial, and which are missing? \n\n[Paste postings here]"
+    },
+    {
+     "title": "Step 5: Have Scout do it for you",
+     "body": "Scout works from your CareerID, so it isn't starting from a blank chat.\n\n1. Add Scout to Claude on your computer: https://scoutjob.ai/start?app=claude&ref=hrguru-hub&utm_source=hrguru&utm_medium=creator-hub&utm_campaign=find-your-next-career-path&utm_content=danyelle\n\n2. Open a new chat and paste this prompt:\n\n3. What you'll see: Scout's path check. That's 2 to 3 adjacent roles, the evidence for each from your CareerID, and the gap for each.\n\nOne honest note on cost. The trial includes 1 path check. After that, Scout is $47/mo. Use your trial check on a real question, not a test run.",
+     "prompt": "Scout, which roles fit my experience that I haven't considered?"
+    }
+   ],
+   "tip": "Look at the gap, not just the fit. Most people read the list of roles and stop at the one that sounds exciting. I'd do the opposite. Pick the role where the gap is smallest and can be explained in one sentence. When a recruiter can see how your past work connects to the new title in about six seconds, you stay in the pile. When they have to guess, you don't.\n\nThen commit. Run your search on that one role for two weeks before you widen it. A focused search reads as intentional. A scattered one reads as lost.",
+   "contentId": "s01",
+   "publishedAt": "2026-10-30T21:45:02.733Z"
+  }
+ ]
+}

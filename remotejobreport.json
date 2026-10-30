@@ -1,1 +1,67 @@
-{"brand":"remotejobreport","updatedAt":"2026-10-30T00:00:00Z","guides":[]}
+{
+ "brand": "remotejobreport",
+ "updatedAt": "2026-10-30T22:09:14Z",
+ "guides": [
+  {
+   "slug": "find-your-next-career-path",
+   "word": "QUIZ",
+   "topic": "Choose a path",
+   "tool": "ChatGPT or Claude",
+   "title": "Find your next career path with Claude + Scout",
+   "short": "",
+   "blurb": "By the end, you'll have a short list of 2 to 3 roles that sit close to your experience, with the evidence for each and the gap you'd need to close.",
+   "inside": [
+    "Gather your raw material (5 minutes)",
+    "Describe your experience in plain words",
+    "Ask for adjacent roles",
+    "Pressure-test each role",
+    "Pick one direction",
+    "Tune your resume to match",
+    "Have Scout do it for you"
+   ],
+   "intro": "Many people apply to everything because nothing feels like a clear fit. The result is a scattered search. Recruiters read scattered as unfocused. A short list of adjacent roles gives your search a direction, and that makes your applications easier to write and easier to read.",
+   "free": [
+    {
+     "title": "Step 1: Gather your raw material (5 minutes)",
+     "body": "You can do this with any AI chat, ChatGPT or Claude. You don't need Scout for this part.\n\nOpen your current resume or LinkedIn profile. Copy the text. If you have performance reviews, project notes, or a list of things you're proud of, grab those too.",
+     "prompt": ""
+    },
+    {
+     "title": "Step 2: Describe your experience in plain words",
+     "body": "Open a new chat and paste this, filling in the brackets:\n\nRead the summary. Fix anything that's off.",
+     "prompt": "I want to find roles that fit my experience that I may not have considered. Here is my background:\n\n[Paste your resume or LinkedIn text here]\n\nBefore you suggest anything, summarize in 5 bullet points what I seem to be good at, based only on what I wrote. Do not guess beyond the text. Then ask me up to 3 questions if something is unclear."
+    },
+    {
+     "title": "Step 3: Ask for adjacent roles",
+     "body": "",
+     "prompt": "Based on my background and my answers, suggest 2 to 3 roles that are adjacent to what I've done and that I may not have considered. I'm looking for remote work. For each role, give me:\n1. The role title\n2. The evidence from my background that supports it (quote or point to specific items I shared)\n3. The gap: what's missing or weak for this role\nDo not include salary figures. Do not tell me what my \"perfect\" career is. Be plain about where my fit is weak."
+    },
+    {
+     "title": "Step 4: Pressure-test each role",
+     "body": "",
+     "prompt": "For each role you suggested, tell me:\n- What a hiring manager would likely question about my background\n- One small, specific thing I could do in the next 30 days to reduce that gap\n- Whether this role is commonly offered remotely, and what to check in a job post to confirm it"
+    }
+   ],
+   "locked": [
+    {
+     "title": "Step 5: Pick one direction",
+     "body": "Choose the role with the strongest evidence and a gap you can actually close. Write it down. Use that title as your search term for the next two weeks.",
+     "prompt": ""
+    },
+    {
+     "title": "Step 6: Tune your resume to match",
+     "body": "Check every line for accuracy before you use it.",
+     "prompt": "I've chosen [role title] as my focus. Rewrite my resume summary in 3 sentences for this role. Use only facts from my background. Flag anything you'd need me to confirm."
+    },
+    {
+     "title": "Step 7: Have Scout do it for you",
+     "body": "Scout runs this kind of path check inside Claude, using your CareerID as the source of evidence.\n\n1. Add Scout to Claude on your computer with this link: https://scoutjob.ai/start?app=claude&ref=remotejobreport-hub&utm_source=remotejobreport&utm_medium=creator-hub&utm_campaign=find-your-next-career-path&utm_content=emma\n\n2. Open a new chat and paste this prompt:\n\n3. What you'll see: Scout's path check. It gives you 2 to 3 adjacent roles, the evidence for each from your CareerID, and the gap for each.\n\nA note on cost: the trial includes 1 path check. After that, Scout is $47/mo. Use your trial check on the question you most want answered.",
+     "prompt": "Scout, which roles fit my experience that I haven't considered?"
+    }
+   ],
+   "tip": "Treat the gap as your to-do list, not a verdict. When a role shows a gap, search for 5 remote postings with that title and note which requirement shows up most often. If the same one appears again and again, that's the gap worth closing first. If it only appears once, skip it. This keeps your search calm and focused, and it keeps you from chasing every requirement you see.",
+   "contentId": "s01",
+   "publishedAt": "2026-10-30T21:45:03.924Z"
+  }
+ ]
+}

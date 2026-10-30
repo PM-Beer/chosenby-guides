@@ -1,1 +1,61 @@
-{"brand":"careerhacks","updatedAt":"2026-10-30T00:00:00Z","guides":[]}
+{
+ "brand": "careerhacks",
+ "updatedAt": "2026-10-30T22:09:14Z",
+ "guides": [
+  {
+   "slug": "find-your-next-career-path",
+   "word": "QUIZ",
+   "topic": "Choose a path",
+   "tool": "ChatGPT or Claude",
+   "title": "Find your next career path with Claude + Scout",
+   "short": "",
+   "blurb": "By the end, you'll have 2 to 3 realistic next-step roles, the evidence from your own background for each, and a clear gap to close for each one.",
+   "inside": [
+    "Dump your experience (5 minutes)",
+    "Paste it into a new chat with this prompt",
+    "Pressure-test the results",
+    "Check it against real job posts (5 minutes)",
+    "Choose your lane",
+    "Have Scout do it for you"
+   ],
+   "intro": "Not sure what job to go for? So you apply to everything. A bit of marketing here, a bit of operations there, whatever looks close enough. Recruiters see a scattered search and read it as unfocused. The fix is small: pick a lane or two on purpose, backed by what you've actually done. That takes about 15 minutes.",
+   "free": [
+    {
+     "title": "Step 1: Dump your experience (5 minutes)",
+     "body": "You can do this with any AI chat, ChatGPT or Claude. No Scout needed.\n\nOpen a doc. List your last 2 to 3 jobs. Under each, write what you did, what tools you used, and what you got praised for. Messy is fine. Don't polish.",
+     "prompt": ""
+    },
+    {
+     "title": "Step 2: Paste it into a new chat with this prompt",
+     "body": "",
+     "prompt": "I'm going to paste a rough summary of my work experience. Read it and suggest 2 to 3 roles that are adjacent to what I've done, including ones I may not have considered. For each role, give me: (1) the role title, (2) the evidence from my experience that supports it, quoting my own details, and (3) the main gap between where I am now and that role. Be honest about weak fits. Do not make up experience I haven't listed. Here is my experience:\n\n[PASTE YOUR NOTES HERE]"
+    },
+    {
+     "title": "Step 3: Pressure-test the results",
+     "body": "Pick the role that interests you most. Then paste this:",
+     "prompt": "For the role [ROLE TITLE], what are 3 skills or experiences a hiring manager would look for that I can't clearly show yet? For each one, suggest one small, free thing I could do in the next 2 weeks to start closing that gap."
+    }
+   ],
+   "locked": [
+    {
+     "title": "Step 4: Check it against real job posts (5 minutes)",
+     "body": "Find 3 live postings for your top role. Paste them in and ask:",
+     "prompt": "Here are 3 job postings for the same role. Compare them to my experience summary from earlier. Which requirements do I clearly meet, which are partial, and which are missing? Keep it as a short list."
+    },
+    {
+     "title": "Step 5: Choose your lane",
+     "body": "Pick one main role and, if you want, one backup. Write them down. For the next week, only apply to roles that match those two. That's your focus.",
+     "prompt": ""
+    },
+    {
+     "title": "Step 6: Have Scout do it for you",
+     "body": "Scout works from your CareerID, so it already has your experience. No dumping notes into a doc first.\n\n1. Add Scout to Claude on your computer: https://scoutjob.ai/start?app=claude&ref=careerhacks-hub&utm_source=careerhacks&utm_medium=creator-hub&utm_campaign=find-your-next-career-path&utm_content=craig\n\n2. Open a new chat and paste this prompt:\n\n3. What you'll see: Scout's path check. That's 2 to 3 adjacent roles, the evidence for each from your CareerID, and the gap for each.\n\nHonest note on limits: the trial includes 1 path check. After that, Scout is $47/mo. The DIY steps above stay free either way.",
+     "prompt": "Scout, which roles fit my experience that I haven't considered?"
+    }
+   ],
+   "tip": "Run the \"gap\" part first, not last. Most people read the role titles and stop. The gap is the useful bit. It tells you what to fix before you apply.\n\nTry this: take the smallest gap on your list and close it this week. Finish one short course, build one tiny sample, or add one line to your résumé that shows the skill you already have. Small move. Big focus. Work smarter, not harder.",
+   "contentId": "s01",
+   "publishedAt": "2026-10-30T21:16:29.871Z"
+  }
+ ]
+}

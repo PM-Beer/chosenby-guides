@@ -1,1 +1,67 @@
-{"brand":"careerreport","updatedAt":"2026-10-30T00:00:00Z","guides":[]}
+{
+ "brand": "careerreport",
+ "updatedAt": "2026-10-30T22:09:14Z",
+ "guides": [
+  {
+   "slug": "find-your-next-career-path",
+   "word": "QUIZ",
+   "topic": "Choose a path",
+   "tool": "ChatGPT or Claude",
+   "title": "Find your next career path with Claude + Scout",
+   "short": "",
+   "blurb": "By the end, you'll have 2 to 3 realistic roles to aim at, the proof from your own experience for each, and the gap you'd need to close.",
+   "inside": [
+    "Gather your raw material (5 minutes)",
+    "List what you actually did",
+    "Ask for adjacent roles",
+    "Pressure-test the gaps",
+    "Check it against real postings",
+    "Choose one direction",
+    "Have Scout do it for you"
+   ],
+   "intro": "Here's what keeps happening. Job seekers aren't sure what they're aiming at, so they apply to everything. Recruiters see a scattered search and read it as unfocused. The fix isn't more applications. It's picking a direction first, based on what your experience already shows.",
+   "free": [
+    {
+     "title": "Step 1: Gather your raw material (5 minutes)",
+     "body": "You can do this with any AI chat, ChatGPT or Claude. No Scout needed.\n\nOpen your resume, your last two job descriptions, and any performance reviews or kudos you saved. Copy the text into one document.",
+     "prompt": ""
+    },
+    {
+     "title": "Step 2: List what you actually did",
+     "body": "Paste your material into a new chat with this prompt:",
+     "prompt": "Here is my work history. Read it and list the 8 to 10 skills and kinds of work I have done most often or most successfully. For each, give one specific example from my text as evidence. Do not guess beyond what is written.\n\n[paste your resume and job descriptions here]"
+    },
+    {
+     "title": "Step 3: Ask for adjacent roles",
+     "body": "In the same chat, paste this:",
+     "prompt": "Based on that evidence, which roles fit my experience that I haven't considered? Give me 2 to 3 adjacent roles, meaning jobs close to what I already do. For each one, tell me: (1) why it fits, with evidence from my history, and (2) the main gap between my experience and what that role typically asks for. Do not include salary figures."
+    },
+    {
+     "title": "Step 4: Pressure-test the gaps",
+     "body": "Pick the role that interests you most and paste this:",
+     "prompt": "For the role [role name], which of the gaps you listed are most likely to matter to a hiring manager, and which can be explained away with experience I already have? Suggest one small, concrete thing I could do in the next 30 days to start closing the biggest gap."
+    }
+   ],
+   "locked": [
+    {
+     "title": "Step 5: Check it against real postings",
+     "body": "Find 3 postings for your top role. Paste them in with this prompt:",
+     "prompt": "Here are 3 job postings for [role name]. Compare them to my experience. What requirements do I clearly meet, which am I close on, and which are real gaps? Be direct.\n\n[paste postings here]"
+    },
+    {
+     "title": "Step 6: Choose one direction",
+     "body": "Pick one role for the next few weeks. Write it at the top of a note. Search for that role only. Rewrite your resume headline to match it.",
+     "prompt": ""
+    },
+    {
+     "title": "Step 7: Have Scout do it for you",
+     "body": "Scout runs the path check for you, using your CareerID as the evidence.\n\n1. Add Scout to Claude on your computer: https://scoutjob.ai/start?app=claude&ref=careerreport-hub&utm_source=careerreport&utm_medium=creator-hub&utm_campaign=find-your-next-career-path&utm_content=albeal\n2. Open a new chat and paste this prompt:\n\n3. What you'll see: Scout's path check. That's 2 to 3 adjacent roles, the evidence for each from your CareerID, and the gap for each.\n\nTrial limit: The trial includes 1 path check. After that, Scout is $47/month.",
+     "prompt": "Scout, which roles fit my experience that I haven't considered?"
+    }
+   ],
+   "tip": "What changed: Recruiters skim fast, and a search that jumps across unrelated titles looks like you haven't decided what you want.\n\nWhat to do: Pick one role from your path check and run a focused search on it for two weeks. Match your resume headline to that role's title. If it isn't landing, go back to your list and try the next one. One direction at a time gives you something you can actually compare.",
+   "contentId": "s01",
+   "publishedAt": "2026-10-30T21:45:03.065Z"
+  }
+ ]
+}
