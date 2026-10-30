@@ -96,7 +96,13 @@ def main(export_dir, feed_dir):
     for f in glob.glob(os.path.join(export_dir, "content", "*.json")):
         c = load(f)
         content[os.path.basename(f)[:-5]] = c
-    feed = {b: [] for b in BRANDS}
+    # every brand that already has a list, plus any brand a guide names: a new brand gets its file automatically
+    known = set(BRANDS) | {os.path.basename(f)[:-5] for f in glob.glob(os.path.join(feed_dir, "*.json"))}
+    for f in glob.glob(os.path.join(export_dir, "guides", "*.json")):
+        b = load(f).get("brand")
+        if b and b.isalnum() and b.islower():
+            known.add(b)
+    feed = {b: [] for b in sorted(known)}
     queued = []
     for f in glob.glob(os.path.join(export_dir, "guides", "*.json")):
         gid = os.path.basename(f)[:-5]
