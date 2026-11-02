@@ -1,7 +1,67 @@
 {
  "brand": "hrguru",
- "updatedAt": "2026-10-30T22:09:14Z",
+ "updatedAt": "2026-11-02T16:47:50Z",
  "guides": [
+  {
+   "slug": "plan-a-career-change",
+   "word": "DIAGNOSIS",
+   "topic": "Choose a path",
+   "tool": "ChatGPT or Claude",
+   "title": "Plan a Career Change with Claude + Scout: The HR-Side Skill-Gap Plan",
+   "short": "Career Change Plan",
+   "blurb": "A step-by-step way to find what from your background transfers, what is missing, how to close each gap, and how to explain your switch in one sentence a recruiter will actually read.",
+   "inside": [
+    "How HR reads a career changer's resume in the first scan",
+    "A prompt to pull the real must-haves out of job postings",
+    "A prompt to turn your old work into proof for the new field",
+    "A one-sentence switch story you can use everywhere",
+    "The faster route: Scout's skill-gap plan inside Claude",
+    "A gap-closing plan that does not cut corners on required credentials"
+   ],
+   "intro": "Here is what happens on our side of the desk. A career changer's resume lands in the pile, and the first question in the reviewer's head is: why is this person applying here? If the resume does not answer that fast, it gets passed over. It is not because you lack skills. It is because you undersold the work that transfers, and you never explained the jump.\n\nThis guide fixes both. You will figure out what from your background actually counts as proof in the new field, which gaps are real, the fastest honest way to close each one, and a one-sentence switch story. None of this guarantees the switch. It makes sure you are not the reason you got screened out.",
+   "free": [
+    {
+     "body": "\"I want to get into tech\" or \"something in healthcare\" is not a target. Recruiters screen against one specific job. Pick one role title in your new field. Then pull three real job postings for that title from companies you would actually apply to.\n\nPostings mix true requirements with wish lists. Your job is to separate them. Pay special attention to anything that is a license, certification or degree the field legally or formally requires. Those are not negotiable, and you need to know them now, not after you apply.",
+     "prompt": "I am changing careers into [target role] in [new field]. Below are three real job postings for this role. Read them like an HR screener. Give me: 1) the must-have requirements that show up in most of the postings, 2) the nice-to-haves, 3) any license, certification or degree that seems truly required to do the job, and 4) the exact words and phrases these postings keep repeating. Do not soften anything. Postings: [paste posting 1] [paste posting 2] [paste posting 3]",
+     "title": "Step 1: Pick one target role and read it like a recruiter"
+    },
+    {
+     "body": "Career changers almost always undersell. You describe your work in your old industry's words, and the screener does not connect it to their job. A retail manager who handled scheduling, budgets and staff conflicts has done real operations work. But if the resume says \"store manager,\" the connection never gets made.\n\nTake the must-have list from Step 1 and match it against what you have actually done. Every match needs proof: a task, a result, a tool, a scale. If there is no proof, it is not a transferable skill yet. It is a gap. Be honest here. Inflated matches fall apart in the first phone screen.",
+     "prompt": "Here is my work background: [paste your resume or a list of your past roles, main tasks, tools you used and results]. Here are the must-have requirements for [target role]: [paste the must-have list from Step 1]. For each requirement, tell me whether my background gives real proof of it. If yes, rewrite that proof in the language the new field uses, as one resume-ready bullet. If the proof is weak or missing, mark it as a gap and say why. Do not stretch my experience to fit. I need what a skeptical recruiter would accept.",
+     "title": "Step 2: Translate your old work into the new field's language"
+    },
+    {
+     "body": "Every recruiter and hiring manager will ask some version of \"why the change?\" If your answer takes two minutes and starts with what you did not like about your old job, you lose them. You need one sentence that connects where you have been to where you are going and shows you are moving toward something.\n\nA strong switch sentence has three parts: what you have done, the thread that carries into the new role, and what you have already done to prepare. You will use this sentence at the top of your resume, in your LinkedIn headline area, in cover letters and as the opening to \"tell me about yourself.\"",
+     "prompt": "Help me write a one-sentence career switch story. I am moving from [current or past field and role] to [target role]. The strongest transferable proof I have is [top 2 or 3 items from Step 2]. What I have already done to prepare is [courses, projects, volunteer work, certifications in progress, or \"nothing yet\"]. Give me 5 versions, each one sentence, under 30 words, in plain language, with no buzzwords. It should sound like I am moving toward this field, not running from my old one. Then tell me which version a recruiter would find most believable and why.",
+     "title": "Step 3: Write your switch story in one sentence"
+    }
+   ],
+   "locked": [
+    {
+     "body": "Steps 1 to 3 work, but they take time and you have to stitch the pieces together yourself. Scout does it as one plan inside Claude: what transfers, what is missing, the fastest way to close each gap and your switch story.\n\nAdd Scout to Claude on your computer with this link: https://scoutjob.ai/start?app=claude&ref=hrguru-hub&utm_source=hrguru&utm_medium=creator-hub&utm_campaign=plan-a-career-change&utm_content=danyelle\n\nTo be straight with you about the trial: Scout is free for 7 days with a card, then $97/month. So do Steps 1 and 2 first if you are still deciding between fields. Use your trial on the one role you are serious about.",
+     "prompt": "",
+     "title": "Step 4: Add Scout to Claude for the faster route"
+    },
+    {
+     "body": "Open a new chat in Claude and paste the prompt below. Fill in the field you are moving into. Be specific. Use the role title from Step 1, not a whole industry.\n\nWhat you will see is a skill-gap plan with four parts: transferable proof from your background, the real gaps, the fastest way to close each one, and your switch story. Read it the way a screener would. If a piece of \"transferable proof\" would not survive the question \"tell me about a time you did that,\" treat it as a gap. Compare it with your work from Steps 2 and 3 and keep the strongest version of each.",
+     "prompt": "Scout, I want to move into [new field]. What from my background transfers, what's missing, and how do I explain the switch?",
+     "title": "Step 5: Run the skill-gap plan"
+    },
+    {
+     "body": "Sort your gaps into two piles. Pile one is required credentials: licenses, certifications or degrees the field formally requires. You cannot skip these, and no resume wording gets around them. If the role needs one, getting it is part of the plan. Pile two is skill and experience gaps. These can often be closed with a short course, a small project, volunteer work or a stretch assignment in your current job.\n\nFor each gap, pick the fastest honest way to show proof. Proof means something you can point to on a resume or talk through in an interview, not just \"I took a class.\" Set a date for each one. A career changer who can say \"I already started closing that gap, here is what I did\" reads very differently to HR than one who is hoping nobody notices.",
+     "prompt": "Here are my gaps for moving into [target role]: [paste the gaps from Scout or Step 2]. Split them into 1) credentials the field formally requires and 2) skill or experience gaps. For required credentials, tell me what they are and the general path to get them, and do not suggest ways around them. For skill and experience gaps, give me the fastest realistic way to build proof I can put on a resume, such as a project, volunteer role or task at my current job. Put it all in a simple plan with what to do first, what proof I will have at the end and a rough time each step might take. I have about [hours per week] hours a week.",
+     "title": "Step 6: Close the real gaps without cutting corners"
+    },
+    {
+     "body": "The top third of your resume decides whether the rest gets read. For a career changer, that space has to answer \"why is this person applying here?\" right away. Put your switch sentence in the summary. Follow it with your strongest transferable proof, written in the new field's words.\n\nDo not rename your old job titles to match the new field. Keep the real titles and let the bullets do the translating. Then make sure the same story shows up on LinkedIn. Recruiters check, and a mismatch raises questions.",
+     "prompt": "Rewrite the top of my resume for [target role]. My switch sentence is: [paste your switch story]. My strongest transferable proof is: [paste 3 to 5 bullets from Step 2 or Scout]. Gaps I am actively closing: [paste from Step 6]. Give me 1) a 2 to 3 line summary that leads with the switch sentence, 2) a short skills section using the exact terms from these postings: [paste key phrases from Step 1], and 3) a LinkedIn headline under 220 characters that matches. Keep my real job titles. Plain language, no buzzwords, nothing I cannot back up in an interview.",
+     "title": "Step 7: Rebuild the top of your resume around the switch"
+    }
+   ],
+   "tip": "Never change your past job titles to make them look like the new field. Employment and background checks often verify titles, and a mismatch can raise doubts about everything else on your resume. Keep the real title, and put the translation in the bullet points underneath it. That is where the screener looks for proof anyway.",
+   "contentId": "s02",
+   "publishedAt": "2026-10-30T22:11:13.484Z"
+  },
   {
    "slug": "find-your-next-career-path",
    "word": "QUIZ",
@@ -43,7 +103,7 @@
     },
     {
      "title": "Step 5: Have Scout do it for you",
-     "body": "Scout works from your CareerID, so it isn't starting from a blank chat.\n\n1. Add Scout to Claude on your computer: https://scoutjob.ai/start?app=claude&ref=hrguru-hub&utm_source=hrguru&utm_medium=creator-hub&utm_campaign=find-your-next-career-path&utm_content=danyelle\n\n2. Open a new chat and paste this prompt:\n\n3. What you'll see: Scout's path check. That's 2 to 3 adjacent roles, the evidence for each from your CareerID, and the gap for each.\n\nOne honest note on cost. The trial includes 1 path check. After that, Scout is $47/mo. Use your trial check on a real question, not a test run.",
+     "body": "Scout works from your CareerID, so it isn't starting from a blank chat.\n\n1. Add Scout to Claude on your computer: https://scoutjob.ai/start?app=claude&ref=hrguru-hub&utm_source=hrguru&utm_medium=creator-hub&utm_campaign=find-your-next-career-path&utm_content=danyelle\n\n2. Open a new chat and paste this prompt:\n\n3. What you'll see: Scout's path check. That's 2 to 3 adjacent roles, the evidence for each from your CareerID, and the gap for each.\n\nOne honest note on cost. Scout is free for 7 days with a card, then $97/month. Use your trial on a real question, not a test run.",
      "prompt": "Scout, which roles fit my experience that I haven't considered?"
     }
    ],

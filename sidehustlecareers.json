@@ -1,6 +1,6 @@
 {
  "brand": "sidehustlecareers",
- "updatedAt": "2026-10-30T22:09:14Z",
+ "updatedAt": "2026-11-02T16:47:50Z",
  "guides": [
   {
    "slug": "find-your-next-career-path",
@@ -55,7 +55,7 @@
     },
     {
      "title": "Step 7: Have Scout do it for you",
-     "body": "Scout works from your CareerID, so the evidence for each role comes from your actual background.\n\n1. Add Scout to Claude on your computer with this link: https://scoutjob.ai/start?app=claude&ref=sidehustlecareers-hub&utm_source=sidehustlecareers&utm_medium=creator-hub&utm_campaign=find-your-next-career-path&utm_content=elena\n\n2. Open a new chat and paste this prompt:\n\n3. What you'll see: Scout's path check. That means 2 to 3 adjacent roles, the evidence for each from your CareerID, and the gap for each.\n\nTrial note: The trial includes 1 path check. After that, Scout is $47/mo. Use your one check on a real question, and have your target in mind before you run it.",
+     "body": "Scout works from your CareerID, so the evidence for each role comes from your actual background.\n\n1. Add Scout to Claude on your computer with this link: https://scoutjob.ai/start?app=claude&ref=sidehustlecareers-hub&utm_source=sidehustlecareers&utm_medium=creator-hub&utm_campaign=find-your-next-career-path&utm_content=elena\n\n2. Open a new chat and paste this prompt:\n\n3. What you'll see: Scout's path check. That means 2 to 3 adjacent roles, the evidence for each from your CareerID, and the gap for each.\n\nTrial note: Scout is free for 7 days with a card, then $97/month. Use it on a real question, and have your target in mind before you run it.",
      "prompt": "Scout, which roles fit my experience that I haven't considered?"
     }
    ],

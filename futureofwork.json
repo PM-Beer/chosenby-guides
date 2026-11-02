@@ -1,6 +1,6 @@
 {
  "brand": "futureofwork",
- "updatedAt": "2026-10-30T22:09:14Z",
+ "updatedAt": "2026-11-02T16:47:50Z",
  "guides": [
   {
    "slug": "find-your-next-career-path",
@@ -49,7 +49,7 @@
     },
     {
      "title": "Step 6: Have Scout do it for you",
-     "body": "Scout works from your CareerID, so the evidence comes from your own record instead of a pasted summary.\n\n1. Add Scout to Claude on your computer: https://scoutjob.ai/start?app=claude&ref=futureofwork-hub&utm_source=futureofwork&utm_medium=creator-hub&utm_campaign=find-your-next-career-path&utm_content=stanita\n\n2. Open a new chat and paste this prompt:\n\n3. What you'll see: Scout's path check. It gives you 2 to 3 adjacent roles, the evidence for each from your CareerID, and the gap for each.\n\nA note on limits: the trial includes 1 path check. After that, Scout is $47/mo. Use your trial check when you're ready to look at the results, and have your goals in mind first.",
+     "body": "Scout works from your CareerID, so the evidence comes from your own record instead of a pasted summary.\n\n1. Add Scout to Claude on your computer: https://scoutjob.ai/start?app=claude&ref=futureofwork-hub&utm_source=futureofwork&utm_medium=creator-hub&utm_campaign=find-your-next-career-path&utm_content=stanita\n\n2. Open a new chat and paste this prompt:\n\n3. What you'll see: Scout's path check. It gives you 2 to 3 adjacent roles, the evidence for each from your CareerID, and the gap for each.\n\nA note on cost: Scout is free for 7 days with a card, then $97/month. Start the trial when you're ready to look at the results, and have your goals in mind first.",
      "prompt": "Scout, which roles fit my experience that I haven't considered?"
     }
    ],

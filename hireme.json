@@ -1,7 +1,67 @@
 {
  "brand": "hireme",
- "updatedAt": "2026-10-30T22:09:14Z",
+ "updatedAt": "2026-11-02T16:47:50Z",
  "guides": [
+  {
+   "slug": "plan-a-career-change",
+   "word": "DIAGNOSIS",
+   "topic": "Choose a path",
+   "tool": "ChatGPT or Claude",
+   "title": "Plan a career change with Claude + Scout",
+   "short": "Career Change Plan",
+   "blurb": "A step-by-step way to find what from your background already counts in your new field, spot the real gaps, and explain your switch in one clear sentence.",
+   "inside": [
+    "How to turn your old job titles into proof the new field understands",
+    "A prompt that matches your skills to real job postings",
+    "A one-sentence switch story you can use anywhere",
+    "How to get a full skill-gap plan from Claude with Scout",
+    "How to close each gap without skipping what the field requires",
+    "Where to put your switch story so people get it fast"
+   ],
+   "intro": "You want to switch careers, but on paper your experience doesn't seem to line up. So you shrink it. You list old job titles, hope someone connects the dots, and wait. Most people never do. That's not because you aren't qualified. It's because your best work is hiding in language the new field doesn't recognize, and the jump hasn't been explained in a way that clicks.\n\nThis guide fixes both. First you'll pull the transferable proof out of your background and translate it into your new field's words. Then you'll write the one sentence that explains your switch. The first three steps work with any AI chat, no extra tools. After that, you'll see how Scout in Claude can build the whole skill-gap plan for you in one go. You've done real work. Let's make it easy to see.",
+   "free": [
+    {
+     "body": "Job titles don't travel well between fields. What you actually did does. Grab a blank page and write down the tasks you handled, the problems you solved, and the things that changed because you were there.\n\nThink about people you helped, processes you fixed, numbers you tracked, tools you learned, and moments someone came to you for help. Write them as plain actions, like \"trained new hires\" or \"cut down customer complaints by changing the follow-up process.\" Only use real numbers you actually know. If you don't know an exact number, just describe what happened.\n\nDon't filter yet. Small things count. This list is the raw material for everything that follows.",
+     "prompt": "I'm planning a career change and I want to list everything I've actually done, not just my job titles. Here's my background: [paste your roles, a few lines about each one, and anything you're proud of]. Ask me up to 8 short questions to pull out tasks, problems I solved, tools I used, and results I can honestly describe. Then give me a clean bullet list of my work written as plain actions. Don't invent any numbers or results. If something needs a detail only I know, mark it with [add detail].",
+     "title": "Step 1: List what you did, not what you were called"
+    },
+    {
+     "body": "Now find 3 to 5 real job postings in the field you want. Pick roles you could realistically go for next, not the dream role five steps up. Copy the duties and requirements sections.\n\nPut your list from Step 1 side by side with those postings. You're looking for overlap. A teacher who \"planned lessons for different learning levels\" may be doing what an instructional designer calls \"designing content for varied audiences.\" Same skill, different words.\n\nThis step also shows you what's missing. That's good news. A clear gap is something you can work on. A vague feeling of \"I'm not enough\" isn't.",
+     "prompt": "I want to move into [new field / target role]. Here is my list of past work: [paste your list from Step 1]. Here are job postings I'm aiming for: [paste 3 to 5 postings]. Please do three things. 1) Match each item from my work to the posting requirements it supports, and rewrite it in the language this field uses. Keep it honest and don't stretch what I did. 2) List the requirements I don't clearly show yet, and say which ones look required (like a license, certification, or degree) versus nice to have. 3) Tell me which of my strengths show up most across these postings.",
+     "title": "Step 2: Translate your work into your new field's language"
+    },
+    {
+     "body": "When someone asks \"so why the change?\" you want a calm, clear answer, not a long apology. A good switch story connects three things: what you've been doing, the thread that carries over, and why the new field is the natural next step.\n\nA simple shape: \"I've spent [time] doing [old work], where I kept [the transferable thing], and I'm moving into [new field] to [what you want to do there].\" Keep it to one sentence you could say out loud without notes.\n\nWrite a few versions, read them aloud, and keep the one that sounds like you on a good day.",
+     "prompt": "Help me explain my career change in one sentence. My background: [your old field and roles]. The new field: [new field / target role]. The strongest skills that carry over: [paste the top matches from Step 2]. Why I want this switch: [your honest reason]. Write 5 one-sentence versions that connect my past work to the new role. Keep them plain, confident, and under 35 words each. No buzzwords, no apologizing for the change, and don't claim experience I don't have. Then tell me which one is clearest and why.",
+     "title": "Step 3: Write your switch story in one sentence"
+    }
+   ],
+   "locked": [
+    {
+     "body": "The free steps work, but they take a few rounds of copying and pasting. Scout is a job search helper you can add to Claude so it does the transfer check, the gap list, and the switch story together in one chat.\n\nOn your computer, open this link and follow the setup: https://scoutjob.ai/start?app=claude&ref=hireme-hub&utm_source=hireme&utm_medium=creator-hub&utm_campaign=plan-a-career-change&utm_content=aleah\n\nOne honest note: Scout is free for 7 days with a card, then $97/month. So pick the field you're most serious about before you start, and have your background handy.",
+     "prompt": "",
+     "title": "Step 4: Add Scout to Claude"
+    },
+    {
+     "body": "Open a new chat in Claude and paste the prompt below. Swap in the field you want to move into. If Scout asks for your resume or background, share it. The more real detail it has, the more useful the plan.\n\nWhat you'll see is a skill-gap plan with four parts: the transferable proof from your background, the real gaps, the fastest way to close each one, and your switch story.\n\nCompare it to what you wrote in Steps 2 and 3. Keep what's strongest from each. You know your own history best, so fix anything that doesn't sound true to you.",
+     "prompt": "Scout, I want to move into [new field]. What from my background transfers, what's missing, and how do I explain the switch?",
+     "title": "Step 5: Ask Scout for your skill-gap plan"
+    },
+    {
+     "body": "Take your list of gaps and sort it into two groups. Group one is anything the field actually requires, like a license, certification, or specific degree. Those are not optional, and no story replaces them. Check the requirement with the licensing body or the official source for your field, then put it on your plan with real next steps.\n\nGroup two is everything else: a tool you haven't used, a type of project you haven't done, vocabulary you're still learning. These are often faster to close with a short course, a small practice project, volunteer work, or taking on a related task in your current job.\n\nFor each gap, write one next action you can start this week. Small and specific beats big and vague.",
+     "prompt": "Here are the gaps between my background and [new field]: [paste the gaps from Scout or Step 2]. For each one, tell me: 1) whether it's typically a firm requirement in this field (license, certification, degree) or a skill I can build, and where I should confirm that, 2) the fastest realistic way to start closing it, and 3) one concrete action I can take this week. Don't suggest skipping anything the field requires. Keep it simple and practical.",
+     "title": "Step 6: Close each gap the honest way"
+    },
+    {
+     "body": "Your one sentence only helps if people read it. Use it at the top of your resume summary, in your LinkedIn headline or About section, in the first lines of cover letters, and as your answer to \"tell me about yourself.\"\n\nThen lead your resume bullets with the translated proof from Step 2 or Scout's plan, using the new field's words. Someone skimming should see the connection in seconds without having to guess.\n\nYou're not hiding the switch. You're making it obvious why it makes sense.",
+     "prompt": "Here is my switch story: [paste your one sentence]. Here is my translated proof: [paste your strongest matched bullets]. My target role: [new field / role]. Please write: 1) a 3-line resume summary, 2) a LinkedIn headline under 200 characters, 3) a short LinkedIn About section, and 4) a 30-second spoken answer to \"tell me about yourself.\" Keep everything honest, plain, and consistent with my story. Don't add experience or results I haven't given you.",
+     "title": "Step 7: Put your switch story where people will see it"
+    }
+   ],
+   "tip": "Say your switch story out loud to one friend who doesn't work in your new field. If they can repeat the gist back to you in their own words, it's ready. If they look confused, cut a clause and try again.",
+   "contentId": "s02",
+   "publishedAt": "2026-10-31T20:40:47.305Z"
+  },
   {
    "slug": "find-your-next-career-path",
    "word": "QUIZ",
@@ -25,7 +85,7 @@
    "locked": [
     {
      "title": "Step 2: Have Scout do it for you",
-     "body": "Scout works inside Claude and uses your CareerID, so it's already working from your experience.\n\n1. Add Scout to Claude on your computer: https://scoutjob.ai/start?app=claude&ref=hireme-hub&utm_source=hireme&utm_medium=creator-hub&utm_campaign=find-your-next-career-path&utm_content=aleah\n\n2. Open a new chat and paste this:\n\n3. What you'll see: Scout's path check. That's 2 to 3 adjacent roles, the evidence for each from your CareerID, and the gap for each.\n\nA quick note on cost: the trial includes 1 path check. After that, Scout is $47/mo.",
+     "body": "Scout works inside Claude and uses your CareerID, so it's already working from your experience.\n\n1. Add Scout to Claude on your computer: https://scoutjob.ai/start?app=claude&ref=hireme-hub&utm_source=hireme&utm_medium=creator-hub&utm_campaign=find-your-next-career-path&utm_content=aleah\n\n2. Open a new chat and paste this:\n\n3. What you'll see: Scout's path check. That's 2 to 3 adjacent roles, the evidence for each from your CareerID, and the gap for each.\n\nA quick note on cost: Scout is free for 7 days with a card, then $97/month.",
      "prompt": "Scout, which roles fit my experience that I haven't considered?"
     }
    ],
